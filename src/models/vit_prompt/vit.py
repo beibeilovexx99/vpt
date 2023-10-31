@@ -19,6 +19,8 @@ from ...utils import logging
 
 logger = logging.get_logger("visual_prompt")
 
+# original version
+
 
 class PromptedTransformer(Transformer):
     def __init__(self, prompt_config, config, img_size, vis):
